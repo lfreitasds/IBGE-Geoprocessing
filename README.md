@@ -4,38 +4,30 @@
 ---
 ## Sumário
 
-[1 - Business Problem](https://github.com/lfreitas16/Sales-Prediction-Rossmann#1---business-problem-)
+[1 - Descrição do Projeto](https://github.com/lfreitasds/IBGE-Geoprocessing#1---descri%C3%A7%C3%A3o-do-projeto)
+[2 - Conjunto de Dados](https://github.com/lfreitasds/IBGE-Geoprocessing#2---conjunto-de-dados)
+[2.1 - Municípios](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)
+[2.2 - Unidades de Conservação](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)
+[3 - Considerações](https://github.com/lfreitasds/IBGE-Geoprocessing#3---considera%C3%A7%C3%B5es)
+[4 - Estratégia de Solução](https://github.com/lfreitasds/IBGE-Geoprocessing#4---estrat%C3%A9gia-de-solu%C3%A7%C3%A3o)
+* [Passo 01 - Instalar biblioteca GeoPandas](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-01---instalar-biblioteca-geopandas)
+* [Passo 02 - Importar bibliotecas](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-02---importar-bibliotecas)
+* [Passo 03 - Carregar os dados](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-03---carregar-os-dados)
+* [Passo 04 - Separar os municípios por região](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-04---separar-os-munic%C3%ADpios-por-regi%C3%A3o)
+* [Passo 05 - Calcular as áreas dos municípios e das unidades de conservação](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-05---calcular-as-%C3%A1reas-dos-munic%C3%ADpios-e-das-unidades-de-conserva%C3%A7%C3%A3o)
+* [Passo 06 - Visualizar os dados](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-06---visualizar-os-dados)
+* [Passo 07 - Plotar mapa do Brasil](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-07---plotar-mapa-do-brasil)
+* [Passo 08 - Criar GeoDatraFrame de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-08---criar-geodatraframe-de-sobreposi%C3%A7%C3%A3o)
+* [Passo 09 - Salvar o GeoDataFrame de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-09---salvar-o-geodataframe-de-sobreposi%C3%A7%C3%A3o)
+* [Passo 10 - Calcular as áreas de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-10---calcular-as-%C3%A1reas-de-sobreposi%C3%A7%C3%A3o)
+* [Passo 11 - Calcular percentual de área de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-11---calcular-o-percentual-de-%C3%A1rea-de-sobreposi%C3%A7%C3%A3o)
+* [Passo 12 - Salvar relatório final](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-12---salvar-relat%C3%B3rio-final)
 
-* [1.1 - Description](https://github.com/lfreitas16/Sales-Prediction-Rossmann#11---description)
-* [1.2 - Data Overview](https://github.com/lfreitas16/Sales-Prediction-Rossmann#12---data-overview)
-
-[2 - Business Assumptions](https://github.com/lfreitas16/Sales-Prediction-Rossmann#2---business-assumptions)
-
-[3 - Solution Strategy](https://github.com/lfreitas16/Sales-Prediction-Rossmann#3---solution-strategy)
-
-* [Step 01 - Data Description](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-01---data-description)
-* [Step 02 - Feature Engineering](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-02---feature-engineering)
-* [Step 03 - Filtering Variables](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-03---filtering-variables)
-* [Step 04 - Exploratory Data Analysis](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-04---exploratory-data-analysis)
-* [Step 05 - Data Preparation](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-05---data-preparation)
-* [Step 06 - Feature Selection](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-06---feature-selection)
-* [Step 07 - Machine Learning Modeling](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-07---machine-learning-modeling)
-* [Step 08 - Hyperparameter Fine Tuning](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-08---hyperparameter-fine-tuning)
-* [Step 09 - Performance Evaluation](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-09---performance-evaluation)
-* [Step 10 - Model Deployment](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-10---model-deployment)
-* [Step 11 - Telegram Bot](https://github.com/lfreitas16/Sales-Prediction-Rossmann#step-11---telegram-bot)
-
-[4 - Business Results](https://github.com/lfreitas16/Sales-Prediction-Rossmann#4---business-results)
-
-[5 - Conclusions](https://github.com/lfreitas16/Sales-Prediction-Rossmann#5---conclusions)
-
-[6 - Next Steps to Improve](https://github.com/lfreitas16/Sales-Prediction-Rossmann#6---next-steps-to-improve)
-
-[7 - Technologies](https://github.com/lfreitas16/Sales-Prediction-Rossmann#7---technologies)
-
-[8 - Author](https://github.com/lfreitas16/Sales-Prediction-Rossmann#8---author)
-
----
+[5 - Resultados](https://github.com/lfreitasds/IBGE-Geoprocessing#5---resultados)
+[6 - Conclusões](https://github.com/lfreitasds/IBGE-Geoprocessing#6---conclus%C3%B5es)
+[7 - Próximos Passos](https://github.com/lfreitasds/IBGE-Geoprocessing#7---pr%C3%B3ximos-passos)
+[8 - Tecnologias](https://github.com/lfreitasds/IBGE-Geoprocessing#8---tecnologias)
+[9 - Autor](https://github.com/lfreitasds/IBGE-Geoprocessing#9---author)
 
 ## 1 - Descrição do Projeto
 
