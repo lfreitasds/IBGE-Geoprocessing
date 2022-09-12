@@ -9,6 +9,7 @@
 [2 - Conjunto de Dados](https://github.com/lfreitasds/IBGE-Geoprocessing#2---conjunto-de-dados)
 * [2.1 - Municípios](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)
 * [2.2 - Unidades de Conservação](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)
+
 [3 - Considerações](https://github.com/lfreitasds/IBGE-Geoprocessing#3---considera%C3%A7%C3%B5es)
 
 [4 - Estratégia de Solução](https://github.com/lfreitasds/IBGE-Geoprocessing#4---estrat%C3%A9gia-de-solu%C3%A7%C3%A3o)
@@ -69,6 +70,8 @@ Autor: Instituto Chico Mendes de Conservação da Biodiversidade (iCMBio)
 AAAA
 
 ## 4 - Estratégia de Solução
+
+Todos os códigos e visualizações para as etapas a seguir podem ser encontradas no  Notebook do projeto.[Abrir aqui](notebook.ipynb).
 
 ### Passo 01 - Instalar biblioteca GeoPandas
 O GeoPandas permite operações espaciais em DataFrames com dados geométricos usando a linguagem Python.
@@ -158,6 +161,6 @@ Cientista de Dados
 [Portfolio](https://lfreitasds.github.io/portfolio/)
 
 ---
-[Return to the table of contents](https://github.com/lfreitasds/IBGE-Geoprocessing#sum%C3%A1rio)
+[Retornar ao Sumário](https://github.com/lfreitasds/IBGE-Geoprocessing#sum%C3%A1rio)
 
 ---
