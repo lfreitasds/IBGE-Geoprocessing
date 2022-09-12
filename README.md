@@ -4,14 +4,11 @@
 ---
 ## Sumário
 
-[1 - Descrição do Projeto](https://github.com/lfreitasds/IBGE-Geoprocessing#1---descri%C3%A7%C3%A3o-do-projeto)
-
+[1 - Descrição do Projeto](https://github.com/lfreitasds/IBGE-Geoprocessing#1---descri%C3%A7%C3%A3o-do-projeto)  
 [2 - Conjunto de Dados](https://github.com/lfreitasds/IBGE-Geoprocessing#2---conjunto-de-dados)
 * [2.1 - Municípios](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)
-* [2.2 - Unidades de Conservação](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)
-
-[3 - Considerações](https://github.com/lfreitasds/IBGE-Geoprocessing#3---considera%C3%A7%C3%B5es)
-
+* [2.2 - Unidades de Conservação](https://github.com/lfreitasds/IBGE-Geoprocessing#21---munic%C3%ADpios)  
+[3 - Considerações](https://github.com/lfreitasds/IBGE-Geoprocessing#3---considera%C3%A7%C3%B5es)  
 [4 - Estratégia de Solução](https://github.com/lfreitasds/IBGE-Geoprocessing#4---estrat%C3%A9gia-de-solu%C3%A7%C3%A3o)
 * [Passo 01 - Instalar biblioteca GeoPandas](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-01---instalar-biblioteca-geopandas)
 * [Passo 02 - Importar bibliotecas](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-02---importar-bibliotecas)
@@ -24,16 +21,11 @@
 * [Passo 09 - Salvar o GeoDataFrame de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-09---salvar-o-geodataframe-de-sobreposi%C3%A7%C3%A3o)
 * [Passo 10 - Calcular as áreas de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-10---calcular-as-%C3%A1reas-de-sobreposi%C3%A7%C3%A3o)
 * [Passo 11 - Calcular percentual de área de sobreposição](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-11---calcular-o-percentual-de-%C3%A1rea-de-sobreposi%C3%A7%C3%A3o)
-* [Passo 12 - Salvar relatório final](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-12---salvar-relat%C3%B3rio-final)
-
-[5 - Resultados](https://github.com/lfreitasds/IBGE-Geoprocessing#5---resultados)
-
-[6 - Conclusões](https://github.com/lfreitasds/IBGE-Geoprocessing#6---conclus%C3%B5es)
-
-[7 - Próximos Passos](https://github.com/lfreitasds/IBGE-Geoprocessing#7---pr%C3%B3ximos-passos)
-
-[8 - Tecnologias](https://github.com/lfreitasds/IBGE-Geoprocessing#8---tecnologias)
-
+* [Passo 12 - Salvar relatório final](https://github.com/lfreitasds/IBGE-Geoprocessing#passo-12---salvar-relat%C3%B3rio-final)  
+[5 - Resultados](https://github.com/lfreitasds/IBGE-Geoprocessing#5---resultados)  
+[6 - Conclusões](https://github.com/lfreitasds/IBGE-Geoprocessing#6---conclus%C3%B5es)  
+[7 - Próximos Passos](https://github.com/lfreitasds/IBGE-Geoprocessing#7---pr%C3%B3ximos-passos)  
+[8 - Tecnologias](https://github.com/lfreitasds/IBGE-Geoprocessing#8---tecnologias)  
 [9 - Autor](https://github.com/lfreitasds/IBGE-Geoprocessing#9---author)
 
 ## 1 - Descrição do Projeto
