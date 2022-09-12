@@ -45,7 +45,7 @@ Usar dados de geolocalização dos municípios e unidades de conservação do Br
 
 ### 2.1 - Municípios
 Malha municipal digital com 5572 geocódigos, sendo: 5568 Municípios,  1 Distrito Federal (Brasília – DF), 1 Distrito Estadual (Fernando de Noronha – PE), 2 Áreas Estaduais Operacionais (Lagoa dos Patos e Lagoa Mirim, ambas atribuídas ao Rio Grande do Sul).
-<img src="img/ibge_map_br" width="500">
+<img src="img/ibge_map_br.png" width="500">
 
 
 Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)
@@ -56,7 +56,7 @@ Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)
 
 ### 2.2 - Unidades de Conservação
 Dados geoespaciais de 334 Unidades de Conservação Federais.
-<img src="icmbio_map_br" width="500">
+<img src="icmbio_map_br.png" width="500">
 [Download Mapa Temático](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais/copy_of_mapa_oficial_08_2021_150.pdf)
 
 Autor: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).
