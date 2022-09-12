@@ -2,7 +2,7 @@
 <img src="img/banner.png">
 
 ---
-## Table of Contents
+## Sumário
 
 [1 - Business Problem](https://github.com/lfreitas16/Sales-Prediction-Rossmann#1---business-problem-)
 
@@ -45,18 +45,19 @@ Usar dados de geolocalização dos municípios e unidades de conservação do Br
 
 ### 2.1 - Municípios
 Malha municipal digital com 5572 geocódigos, sendo: 5568 Municípios,  1 Distrito Federal (Brasília – DF), 1 Distrito Estadual (Fernando de Noronha – PE), 2 Áreas Estaduais Operacionais (Lagoa dos Patos e Lagoa Mirim, ambas atribuídas ao Rio Grande do Sul).
-<img src="img/ibge_map_br.png" width="500">
 
+<img src="img/ibge_map_br.png" width="500">
 
 Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)
 Última atualização: 01/03/2021
+
 [Download](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads)
-
-
 
 ### 2.2 - Unidades de Conservação
 Dados geoespaciais de 334 Unidades de Conservação Federais.
-<img src="icmbio_map_br.png" width="500">
+
+<img src="img/icmbio_map_br.png" width="500">
+
 [Download Mapa Temático](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais/copy_of_mapa_oficial_08_2021_150.pdf)
 
 Autor: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).
@@ -65,39 +66,54 @@ Autor: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).
 
 ## 3 - Considerações
 AAAA
+
 ## 4 - Estratégia de Solução
 
 ### Passo 01 - Instalar biblioteca Geopandas
 O GeoPandas permite operações espaciais em DataFrames com tipos de dados geométricos no Python.
 
 ### Passo 02 - Importar bibliotecas
-* pandas: manipular dataframes
-* matplotlib.pyplot: criação de mapas
-* geopandas: manipulação de dados geoespaciais 
-* fiona: leitura e escrita de formatos vetoriais
-* seaborn: visualização de dados
+* *pandas*: manipulação de dataframes
+* *matplotlib.pyplot*: criação de mapas
+* *geopandas*: manipulação de dados geoespaciais 
+* *fiona*: leitura e escrita de formatos vetoriais
+* *seaborn*: visualização de dados
 
 ### Passo 03 - Carregar os dados
 Usar Geopandas para criar um GeoDataFrame com os dados geográficos armazenados em formato shapefile.
 ### Passo 04 - Separar os municípios por região
 Para facilitar a análise.
 ### Passo 05 - Calcular áreas dos municípios e unidades de conservação
-Utilizar o atributo área, que devolve a área do polígono para cada uma das linhas dos conjuntos de dados.
+Utilizar o atributo *area*, que devolve a área do polígono para cada uma das linhas dos conjuntos de dados.
 ### Passo 06 - Visualizar os dados
-Plotar gráficos para comparar as quantidades de municípios/unidades de conservação e as áreas em cada região.
+Plotar gráficos para comparar as quantidades de municípios/unidades de conservação e as respectivas áreas em cada região.
 ### Passo 07 - Plotar mapa do Brasil
-Com a divisão dos municípios e unidades de conservação.
+Mostrando a divisão dos municípios e as unidades de conservação.
 ### Passo 08 - Criar GeoDatraFrame de sobreposição
 Por meio da função overlay da biblioteca de geopandas, obter os locais onde os conjuntos de dados do IBGE e do iCMBio se sobrepõem.
 ### Passo 09 - Salvar o GeoDataFrame de Sobreposição
-Em formato vetorial GeoJSON para poder carregar os dados sem a necessidade de executar novamente a função overlay cujo processamento demora um pouco.
+Em formato vetorial GeoJSON para poder carregar os dados sem a necessidade de executar novamente a função overlay cujo processamento é um pouco demorado.
 ### Passo 10 - Calcular as áreas de sobreposição
-Utilizar o atributo área, que devolve a área do polígono para cada uma das linhas dos conjuntos de dados.
-### Passo 11 - Calcular o percentual de área de cada município sobreposto por unidade de conservação.
+Utilizar o atributo *area*, que devolve a área do polígono para cada uma das linhas dos conjuntos de dados.
+### Passo 11 - Calcular o percentual de área de sobreposição
 ### Passo 12 - Salvar relatório final
-Você pode abrir o relatório aqui: [report_br.csv](https://github.com/lfreitasds/IBGE-Geoprocessing/blob/main/report_br.csv)  
-### Passo 13 - Analisar os municípios que fazem intersecção com unidades de conservação.
 
+| Coluna | Descrição | 
+| :----- | :----- | 
+| CD_MUN | código do município | 
+| NM_MUN | nome do município |
+| SIGLA | estado do município |
+| REGIAO_MUN | região do município |
+| AREA_MUN | área do município |
+| CNUC | código da unidade de conservação |
+| NM_UC | nome da unidade de conservação |
+| REGIAO_UC	| região da unidade de conservação |
+| AREA_UC | área da unidade de conservação |
+| AREA_SOBREP | área de sobreposição |
+| PERC_SOBREP | percentual de área de sobreposição |
+| PERC_TOTAL | área de sobreposição total do município |
+
+Você pode abrir o relatório aqui: [report_br.csv](https://github.com/lfreitasds/IBGE-Geoprocessing/blob/main/report_br.csv)  
 
 ## 5 - Resultados
 Analisando todos os municípios:
@@ -120,18 +136,13 @@ Analisando somente os municípios que fazem intersecção com unidades de conser
 | Centro-Oeste | 61 | 10,21% | 
 | **Total:** | **781** | **20,72%** |
 
-
-
 ## 6 - Conclusões
 * AAAA
 
 ## 7 - Próximos Passos
-
-In the next CRISP iteration we can
-
+No próximo ciclo do CRISP...
 
 ## 8 - Tecnologias
-
 [![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com/)
 [![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)](https://www.canva.com/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
@@ -141,7 +152,6 @@ In the next CRISP iteration we can
 [![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/python/plotly-express/)
 
 ## 9 - Author
-
 Leonardo de Freitas  
 Cientista de Dados
 [Portfolio](https://lfreitasds.github.io/portfolio/)
