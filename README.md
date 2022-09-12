@@ -47,32 +47,28 @@ Malha municipal digital com 5572 geocódigos, sendo: 5568 Municípios,  1 Distri
 
 <img src="img/ibge_map_br.png" width="500">
 
-Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)
-
-Última atualização: 01/03/2021
-
-[Download dos Dados](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads)
+Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)  
+Última atualização: 01/03/2021  
+[Baixar os Dados](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads)
 
 ### 2.2 - Unidades de Conservação
 Dados geoespaciais de 334 unidades de conservação federais.
 
 <img src="img/icmbio_map_br.png" width="500">
 
-[Download Mapa Temático](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais/copy_of_mapa_oficial_08_2021_150.pdf)
+[Baixar Mapa Temático](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais/copy_of_mapa_oficial_08_2021_150.pdf)
 
-Autor: Instituto Chico Mendes de Conservação da Biodiversidade (iCMBio)
-
-Última atualização: 15/08/2022
-
-[Download dos Dados](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais)
+Autor: Instituto Chico Mendes de Conservação da Biodiversidade (iCMBio)  
+Última atualização: 15/08/2022  
+[Baixar os Dados](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais)
 
 ## 3 - Considerações
 * A região nordeste apresenta as maiores áreas de conservação devido às resevas do bioma marinho costeiro e das ilhas oceânicas.
 
 ## 4 - Estratégia de Solução
 
-Todos os códigos e visualizações para as etapas a seguir podem ser encontrados no  Notebook do projeto.
-[Abrir aqui](notebook.ipynb).
+Todos os códigos e visualizações para as etapas a seguir podem ser encontrados no  Notebook do projeto.  
+[Acessar aqui](notebook.ipynb).
 
 ### Passo 01 - Instalar biblioteca GeoPandas
 O GeoPandas permite operações espaciais em DataFrames com dados geométricos usando a linguagem Python.
@@ -125,7 +121,7 @@ Analisando todos os municípios:
 | Região | Quantidade de Municípios | Percentual de Sobreposição |
 | :-----: | :-----: | :-----: |
 | Norte | 450 | 16,49% |
-| Nordeste | 1792  | 4,80% | 
+| Nordeste | 1794  | 4,80% | 
 | Sul | 1193 | 2,75% | 
 | Sudeste | 1668 | 2,71% | 
 | Centro-Oeste | 467 | 2,36% | 
@@ -146,7 +142,7 @@ Analisando somente os municípios que fazem intersecção com unidades de conser
 
 ## 7 - Próximos Passos
 * Criar mapa interativo usando a biblioteca Folium.
-* Criar aplicativo web usando o framework Streamlit gerando mapa e percentual de sobreposição do município escolhido.  
+* Criar aplicativo web com Streamlit para gerar o mapa e o percentual de sobreposição do município escolhido.  
 
 ## 8 - Tecnologias
 [![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com/)
@@ -159,7 +155,7 @@ Analisando somente os municípios que fazem intersecção com unidades de conser
 
 ## 9 - Autor
 Leonardo de Freitas  
-Cientista de Dados
+Cientista de Dados  
 [Portfolio](https://lfreitasds.github.io/portfolio/)
 
 ---
