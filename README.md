@@ -50,7 +50,7 @@ Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)
 
 Última atualização: 01/03/2021
 
-[Download](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads)
+[Download dos Dados](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads)
 
 ### 2.2 - Unidades de Conservação
 Dados geoespaciais de 334 unidades de conservação federais.
@@ -59,11 +59,11 @@ Dados geoespaciais de 334 unidades de conservação federais.
 
 [Download Mapa Temático](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais/copy_of_mapa_oficial_08_2021_150.pdf)
 
-Autor: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)
+Autor: Instituto Chico Mendes de Conservação da Biodiversidade (iCMBio)
 
 Última atualização: 15/08/2022
 
-[Download](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais)
+[Download dos Dados](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais)
 
 ## 3 - Considerações
 AAAA
@@ -71,7 +71,7 @@ AAAA
 ## 4 - Estratégia de Solução
 
 ### Passo 01 - Instalar biblioteca GeoPandas
-O GeoPandas permite operações espaciais em DataFrames com tipos de dados geométricos usando Python.
+O GeoPandas permite operações espaciais em DataFrames com dados geométricos usando a linguagem Python.
 
 ### Passo 02 - Importar bibliotecas
 * *pandas*: manipulação de dataframes
@@ -89,7 +89,7 @@ Utilizar o atributo *area*, que devolve a área do polígono para cada uma das l
 ### Passo 06 - Visualizar os dados
 Plotar gráficos para comparar as quantidades de municípios/unidades de conservação e as respectivas áreas em cada região.
 ### Passo 07 - Plotar mapa do Brasil
-Mostrando a divisão dos municípios e as unidades de conservação.
+Para visualizar a divisão dos municípios e as unidades de conservação.
 ### Passo 08 - Criar GeoDatraFrame de sobreposição
 Por meio da função overlay da biblioteca GeoPandas, obter os locais onde os conjuntos de dados do IBGE e do iCMBio se sobrepõem.
 ### Passo 09 - Salvar o GeoDataFrame de sobreposição
@@ -158,6 +158,6 @@ Cientista de Dados
 [Portfolio](https://lfreitasds.github.io/portfolio/)
 
 ---
-[Return to the table of contents](https://github.com/lfreitas16/Sales-Prediction-Rossmann#table-of-contents)
+[Return to the table of contents](https://github.com/lfreitasds/IBGE-Geoprocessing#sum%C3%A1rio)
 
 ---
