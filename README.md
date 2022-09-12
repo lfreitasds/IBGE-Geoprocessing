@@ -67,11 +67,12 @@ Autor: Instituto Chico Mendes de Conservação da Biodiversidade (iCMBio)
 [Download dos Dados](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais)
 
 ## 3 - Considerações
-AAAA
+* A região nordeste apresenta as maiores áreas de conservação devido às resevas do bioma marinho costeiro e das ilhas oceânicas.
 
 ## 4 - Estratégia de Solução
 
-Todos os códigos e visualizações para as etapas a seguir podem ser encontradas no  Notebook do projeto.[Abrir aqui](notebook.ipynb).
+Todos os códigos e visualizações para as etapas a seguir podem ser encontrados no  Notebook do projeto.
+[Abrir aqui](notebook.ipynb).
 
 ### Passo 01 - Instalar biblioteca GeoPandas
 O GeoPandas permite operações espaciais em DataFrames com dados geométricos usando a linguagem Python.
@@ -141,10 +142,11 @@ Analisando somente os municípios que fazem intersecção com unidades de conser
 | **Total:** | **781** | **20,72%** |
 
 ## 6 - Conclusões
-* AAAA
+<img src="img/resumo.png">
 
 ## 7 - Próximos Passos
-No próximo ciclo do CRISP...
+* Criar mapa interativo usando a biblioteca Folium.
+* Criar aplicativo web usando o framework Streamlit gerando mapa e percentual de sobreposição do município escolhido.  
 
 ## 8 - Tecnologias
 [![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com/)
@@ -155,7 +157,7 @@ No próximo ciclo do CRISP...
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/python/plotly-express/)
 
-## 9 - Author
+## 9 - Autor
 Leonardo de Freitas  
 Cientista de Dados
 [Portfolio](https://lfreitasds.github.io/portfolio/)
