@@ -39,7 +39,7 @@
 
 ## 1 - Descrição do Projeto
 
-Usar dados de geolocalização dos municípios e unidades de conservação do Brasil para obter qual percentual da área dos municípios corresponde à área de conservação.
+Usar dados de geolocalização dos municípios e unidades de conservação do Brasil para obter o percentual da área dos municípios que corresponde à área de conservação.
 
 ## 2 - Conjunto de Dados
 
@@ -49,19 +49,22 @@ Malha municipal digital com 5572 geocódigos, sendo: 5568 Municípios,  1 Distri
 <img src="img/ibge_map_br.png" width="500">
 
 Autor: Instituto Brasileiro de Geografia e Estatistica (IBGE)
+
 Última atualização: 01/03/2021
 
 [Download](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html?=&t=downloads)
 
 ### 2.2 - Unidades de Conservação
-Dados geoespaciais de 334 Unidades de Conservação Federais.
+Dados geoespaciais de 334 unidades de conservação federais.
 
 <img src="img/icmbio_map_br.png" width="500">
 
 [Download Mapa Temático](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais/copy_of_mapa_oficial_08_2021_150.pdf)
 
-Autor: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).
+Autor: Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)
+
 Última atualização: 15/08/2022
+
 [Download](https://www.gov.br/icmbio/pt-br/servicos/geoprocessamento/mapa-tematico-e-dados-geoestatisticos-das-unidades-de-conservacao-federais)
 
 ## 3 - Considerações
@@ -69,8 +72,8 @@ AAAA
 
 ## 4 - Estratégia de Solução
 
-### Passo 01 - Instalar biblioteca Geopandas
-O GeoPandas permite operações espaciais em DataFrames com tipos de dados geométricos no Python.
+### Passo 01 - Instalar biblioteca GeoPandas
+O GeoPandas permite operações espaciais em DataFrames com tipos de dados geométricos usando Python.
 
 ### Passo 02 - Importar bibliotecas
 * *pandas*: manipulação de dataframes
@@ -80,19 +83,19 @@ O GeoPandas permite operações espaciais em DataFrames com tipos de dados geom�
 * *seaborn*: visualização de dados
 
 ### Passo 03 - Carregar os dados
-Usar Geopandas para criar um GeoDataFrame com os dados geográficos armazenados em formato shapefile.
+Usar GeoPandas para criar um GeoDataFrame com os dados geográficos armazenados em formato shapefile.
 ### Passo 04 - Separar os municípios por região
 Para facilitar a análise.
-### Passo 05 - Calcular áreas dos municípios e unidades de conservação
+### Passo 05 - Calcular as áreas dos municípios e das unidades de conservação
 Utilizar o atributo *area*, que devolve a área do polígono para cada uma das linhas dos conjuntos de dados.
 ### Passo 06 - Visualizar os dados
 Plotar gráficos para comparar as quantidades de municípios/unidades de conservação e as respectivas áreas em cada região.
 ### Passo 07 - Plotar mapa do Brasil
 Mostrando a divisão dos municípios e as unidades de conservação.
 ### Passo 08 - Criar GeoDatraFrame de sobreposição
-Por meio da função overlay da biblioteca de geopandas, obter os locais onde os conjuntos de dados do IBGE e do iCMBio se sobrepõem.
-### Passo 09 - Salvar o GeoDataFrame de Sobreposição
-Em formato vetorial GeoJSON para poder carregar os dados sem a necessidade de executar novamente a função overlay cujo processamento é um pouco demorado.
+Por meio da função overlay da biblioteca GeoPandas, obter os locais onde os conjuntos de dados do IBGE e do iCMBio se sobrepõem.
+### Passo 09 - Salvar o GeoDataFrame de sobreposição
+Salvar em formato vetorial GeoJSON para poder carregar os dados sem a necessidade de executar novamente a função overlay cujo processamento é um pouco demorado.
 ### Passo 10 - Calcular as áreas de sobreposição
 Utilizar o atributo *area*, que devolve a área do polígono para cada uma das linhas dos conjuntos de dados.
 ### Passo 11 - Calcular o percentual de área de sobreposição
